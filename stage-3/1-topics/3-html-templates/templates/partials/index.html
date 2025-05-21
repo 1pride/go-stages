@@ -1,0 +1,13 @@
+<!--Declares a template block (like a partial or child)-->
+{{define "content" }}
+<h1>{{ .Title }}</h1>
+<ul>
+    {{ range .People }}
+    {{if .Above21}}
+    <li>{{ .Name }} it's above 21</li>
+    {{else}}
+    <li>{{ .Name }} it's under 21</li>
+    {{ end }}
+    {{ end }}
+</ul>
+{{end}}
