@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>Forms Whatever</title>
+</head>
+<body>
+<form method="post">
+    <label for="name">Your Name:</label>
+    <input type="text" id="name" name="name" value="John Doe" required>
+
+    <label for="message">Your Msg:</label>
+    <textarea id="message" name="message" placeholder="Lorem ipsum..." required></textarea>
+
+    <button type="submit" formmethod="post">Send</button>
+</form>
+<h1>{{ .Msg }} Written by: {{.Name}}</h1>
+</body>
+</html>
