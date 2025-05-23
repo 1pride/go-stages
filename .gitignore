@@ -26,3 +26,7 @@ go.work.sum
 
 # Jetbrains IDE file
 .idea
+
+# Air Rerverse files
+.air.toml
+/tmp
