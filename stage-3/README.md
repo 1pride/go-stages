@@ -14,6 +14,7 @@
 - [Go.dev: Accessing a relational database](https://go.dev/doc/tutorial/database-access)
 - [GoWebExamples: Templates](https://gowebexamples.com/templates/)
 - [GoWebExamples: Assets and Files](https://gowebexamples.com/static-files/)
+- [DigitalOcean: How To Use Templates in Go](https://www.digitalocean.com/community/tutorials/how-to-use-templates-in-go)
 
 > ️ Exercises
 > - [x] Create a "Hello, World" web server
