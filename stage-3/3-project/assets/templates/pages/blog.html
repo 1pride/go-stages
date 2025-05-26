@@ -1,0 +1,12 @@
+{{template "base" .}}
+<header class="header">{{index .Title 2}}</header>
+<body>
+<main>
+    <h1>{{index .Message 2}}</h1>
+    <form action="/blog" method="POST">
+        <input type="text" name="username" required/>
+        <input type="submit" value="Submit" />
+    </form>
+</main>
+{{template "footer". }}
+</body>
